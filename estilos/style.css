@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
-
+    font-family: 'Inter', sans-serif;
 }
 
 html, body {
@@ -16,13 +20,13 @@ main {
     height: 100%;
     text-align: center;
     display: flex;
-    
+    flex-direction: row;
 }
 
 .card {
     background-color: hsl(244, 38%, 16%);
-    width: 80%;
-    height: 90%;
+    width: 280px;
+    height: 500px;
     margin: auto;
 }
 
@@ -30,16 +34,48 @@ main {
     width: 100%;
 }
 
-.image > img {
+.image > img.desktop-img {
+    display: none;
+}
+
+.image > img.mobile-img {
     width: 100%;
     border-radius: 5px 5px 0px 0px;
+}
+
+p.titulo {
+    font-weight: 700;
+}
+
+#destaque {
     color: hsl(277, 64%, 61%);
 }
 
-.card p.transparence{
-    color: hsla(0, 0%, 100%, 0.329);
+.titulo, .transparence {
+    padding-bottom: 10px;
 }
 
-.status{
+.card p.transparence{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 2%;
+    font-size: 0.8em;
+}
+
+.num {
+    display: inline;
+    font-size: larger;
+    font-weight: 700;
+}
+
+#status{
     font-family: 'Lexend Deca', sans-serif;
+    margin: 20px;
+    line-height: 1.7em;
+
+}
+
+#status p.texto {
+    font-size: smaller;
+    color: hsla(0, 0%, 100%, 0.596);
+    font-weight: 400;
 }
