@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+main {
+    background-color: hsl(233, 47%, 7%);
+    width: 70%;
+    height: 90%;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.card {
+    background-color: hsl(244, 38%, 16%);
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.image {
+    width: 100%;
+}
+
+.image > img {
+    width: 100%;
+    color: hsl(277, 64%, 61%);
+}
+
+.card p.transparence{
+    color: hsla(0, 0%, 100%, 0.329);
+}
+
+.status{
+    font-family: 'Lexend Deca', sans-serif;
+}
