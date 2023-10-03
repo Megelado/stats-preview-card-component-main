@@ -67,14 +67,18 @@ p.titulo {
     font-weight: 700;
 }
 
-#status{
-    font-family: 'Lexend Deca', sans-serif;
-    margin: 20px;
-    line-height: 1.7em;
+table{
+    display: none
 
 }
 
-#status p.texto {
+#texto {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 20px;
+    line-height: 1.7em;
+}
+
+#texto > p.requisito {
     font-size: smaller;
     color: hsla(0, 0%, 100%, 0.596);
     font-weight: 400;
